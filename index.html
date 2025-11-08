@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Most basic Portfolio website with only frontend (HTML, CSS, JS), webforms, screen responsiveness using media -->
+
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Tine Htet Moe Tha</a>
+        </div>
+
+        <!-- Hamburger -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+        </label>
+
+        <div class="right">
+            <a href="https://github.com/moetha2121" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/tine-htet-moe-tha-/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:moethaethebest@gmail.com" >
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!--Hero section-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>
+                    Hi, I'm Moe Tha 😸
+                </h2>
+                <p>
+                    Passionate about systems and networks, I’m a Cyber Security student aspiring to become a Network or Systems Engineer. I enjoy learning new technologies, debugging complex problems, and sharing knowledge through volunteering — from mentoring young coders to exploring innovative tech. Outside work, you’ll often find me unwinding at a cozy café.
+                    <div class="links">
+                        <a href="#skills">
+                            <i class="fa-solid fa-database"></i>
+                            <span>Skills</span>
+                        </a>
+
+                        <a href="#testimony">
+                            <i class="fa-solid fa-pen"></i>
+                            <span>Testimony</span>
+                        </a>
+
+                        <a href="#contact">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Contact</span>
+                        </a>
+                    </div>
+                </p>
+            </div>
+            <div class="headshot">
+                <img src="./images/headshot.jpg" alt="Tine Htet headshot">
+            </div>
+        </section>
+
+        <!--Skills section-->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Gained experience in front and back end development, Python, and IoT projects with Raspberry Pi, while building practical skills in virtual machines, operating systems, and Microsoft Active Directory.            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="./images/logo1.png" alt="html,css,js logo">
+                    <span>Basic Web Coding</span>
+                </div>
+
+                <div class="cell">
+                    <img src="./images/logo2.png" alt="python logo">
+                    <span>Python</span>
+                </div>
+
+                <div class="cell">
+                    <img src="./images/logo4.png" alt="mysql logo">
+                    <span>MySQL</span>
+                </div>
+
+                <div class="cell">
+                    <img src="./images/logo6.png" alt="vm logo">
+                    <span>VMWare</span>
+                </div>
+
+                <div class="cell">
+                    <img src="./images/logo3.png" alt="microsoft logo">
+                    <span>Microsoft AD</span>
+                </div>
+
+        </section>
+
+        <!--Testimony section-->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="./images/testimonial_pic1.png" alt="Mr Ankit">
+                    <p>Mr Saurabh Ankit</p>
+                    <p>Lecturer at SP</p>
+                </div>
+                <div class="text">
+                    "I first taught Moe Tha in SMW module at SP, and it has been quite meaningful to now have him as my intern — somehow it feels a bit fated. </br>
+                    In both settings, he has shown the same qualities I value in a student and team member: respectful, friendly, dependable, and genuinely eager to learn.
+
+                    He completes his work on time and is not shy to ask questions — sometimes a bit too many — but always because he wants to understand things properly, not just for the sake of asking. </br>
+                    During his internship, he has been picking up new skills quickly and has shown a strong willingness to take on tasks even when they are unfamiliar. </br>
+
+                    Moe has a good attitude and a positive spirit. I believe he will continue to do well, and I am confident that with his curiosity and determination, he will find his way and succeed in whatever path he chooses. </br></br>
+ 
+                    Good Luck Moe! It has been a pleasure!"
+                </div>         
+            </div>
+
+            <div class="group">
+                <div class="person-details">
+                    <img src="./images/default_user_icon.png" alt="Chua Zi Liang">
+                    <p>Chua Zi Liang Ian</p>
+                    <p>Security Consultant, Supervisor@Thinkture</p>
+                </div>
+                <div class="text">
+                    "Tine demonstrated great self-discipline and independence during the internship. He listened carefully to guidance, worked efficiently, and was always willing to help others, making him a reliable and proactive team member." <br><br><br>
+                </div>         
+            </div>
+        </section>
+
+        <!--Contact section-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    I’m always open to connecting with others who share an interest in technology, networking, or cybersecurity. Whether it’s about potential opportunities, collaborations, or just sharing ideas, feel free to reach out. I’ll do my best to respond as soon as possible!
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST" onsubmit="alert('Form submitted, thank you!')">
+                    <input type="hidden" name="access_key" value="f005563f-0a85-4566-994b-fb620ee0aa29">
+                    <input type="hidden" name="redirect" value="http://127.0.0.1:5500/index.html">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" cols="30" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
